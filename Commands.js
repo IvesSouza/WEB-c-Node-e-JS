@@ -108,3 +108,18 @@ EX : Saida : A == 3
  console.prompt() // Caixa de Prompt 
  window.confirm() // Check-box de confirmação e cancelar
  
+
+
+ // Comparação de dados
+
+ == : Igual sem considerar o modelo da VAR
+ === : Comparação de Igualdade , levando em consideraçãoa tipagem da variavel
+ != : Diferença de variaveis sem considerar a tipagem da variavel
+ !== : Diferença de variaveis Considerando a tipagem da variavel
+ OUtros : > | >= | < | <=   
+
+ // Operadores Logicos
+
+ e (and) : Apenas Verdadeiro com Verdadeiro que é igual a true
+ ou (or) : Algum sendo True a resposta é true
+ não (not) :
