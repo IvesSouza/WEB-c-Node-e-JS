@@ -123,3 +123,11 @@ EX : Saida : A == 3
  e (and) : Apenas Verdadeiro com Verdadeiro que é igual a true
  ou (or) : Algum sendo True a resposta é true
  não (not) :
+
+
+ // 
+
+ // Laço de repetição onde ele se executa apenas 1 e depois verifica se tem que manter em loop
+ do {
+    
+ } while (condition);
