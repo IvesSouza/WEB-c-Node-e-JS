@@ -131,3 +131,24 @@ EX : Saida : A == 3
  do {
     
  } while (condition);
+
+
+ // Estruturas de Dados > Armazenar , ORrdanizar os dados (geral)
+ Lista Ligada = Coleção ordenada de valores onde cada elemnto aponta para o proximo
+ Array = Coleção de elementos que podem ser identificados por um Indice
+ File (queue) = Coleção de elementos onde o primeiro elemento a ser tirado deve ser o primeiro a entrar(primeiro a entrar , o primeiro a sair)
+ Pilha (Stack) = Coleção de elementos onde o primeiro elemente a ser retirado deve ser o ultimo elemento (push / pop)
+ Arvore (tree) = Conjunto do elemento chamada de nós organizados em estrutura hierarquica (não sequencial) , ou seja , podendo estar abaixo ou a cima de outros nós
+
+ // Estruturas de Dados > Armazenar , ORrdanizar os dados (javascript)
+
+ Listas (arrays) :
+    Pode usar todos os modelos de dados dentro dela (num , int , floar , string ..)
+    Utiliza o [] para criação do Array
+    Funçẽões :
+        Enfileirar / Desenfilerar
+        Empilhar / desempilhar
+        Achar o Indice
+        Cortar / concatenar
+ Dicionários : 
+ Valor & Referencia :
