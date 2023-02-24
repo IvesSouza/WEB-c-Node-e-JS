@@ -152,3 +152,107 @@ EX : Saida : A == 3
         Cortar / concatenar
  Dicionários : 
  Valor & Referencia :
+
+
+ // Array Bi-direcionais
+
+ cont arry = [] // Array comum de 1 posição
+
+
+ // Array multiplos array
+ cont arr = [ 
+    [
+        "Array 1"
+
+    ],[
+        "Array 2"
+
+    ],[
+        "Array3"
+    ]
+
+ ] 
+
+ // Chamar array Simples
+ console.log(arr[INDEX])
+
+ // Chamar o Array ,dentro de outro Array
+
+ console.log(arr[INDEX][INDEX_DO_Segundo_array_interno])
+
+ // Vai colocando [] dentro da chamada do array até acessar a posição desejada
+ // Acessando Array com 3 array dentros
+
+ console.log(arr[INDEX][INDEX_1][INDEX_2][INDEX_N])
+
+ // Usar o console.table(VAR) para gerar uma tabela no depurador
+
+ console.table(VAR)
+
+ // Operação com Array Bi-Direcionais
+ // Para adicionar em uma array com sub niveis de array primeiro falamos para o debug qual a linha que desejamos incrementar , da seguinte forma:
+ array[INDEX_LINHA].push("__ ITEM A SER ADICIONADO __")
+
+ // interar Array com muitos arrays Internos
+ for (let index = 0; index < array.length; index++) {
+    for (let j = 0; j < array.length[i]; j++) {
+        const elemento = arry[index][j]
+        console.log("Posição" + i + ',' + j )
+    }
+
+ }
+
+ // Objetos em JS
+ 
+
+
+ // Function
+
+ // Entrada padrão de Funções
+ function VAR(params) {
+    
+ }
+
+ // Funcção com passagem de parametroe definição de valor padrão
+ function name(PARMENTRO = "VALOR PADRAO") {
+    
+ }
+
+ //Criação de usuario com Function
+ function novoUser(nome ,senha ,email ,telefone) {
+    const usuario ={
+        nome, // => é igual a isso nome: nome
+        email, // => é igual a isso email: emial
+        senha, // => é igual a isso senha: senha
+        telefone // => é igual a isso telefone: telefone
+    }
+    
+ }
+
+ // Função com muitos parametros , transformamos em um objeto apenas e mostra apenas ele
+
+ function funcaoMuitosParametros(valoresGrandes) {
+    // Codigo ....
+ }
+
+ const valoresGrandes = {
+    nome: "",
+    telefone: "",
+    email: "",
+    senha: "",
+    endereço: "",
+    aniversario: ""
+ }
+
+ // O Return da função pode ser qualuqer tipo de dado ...
+
+ function name(params) {
+    // codigo...
+    return X //dados a ser retornado
+ }
+
+ // Uma return só pode retornar uma unica vez , mais de uma vez ele da erro
+
+ 
+
+ // Funções anonimas de JS 

@@ -1,1 +1,5 @@
 /* CODE - JS */
+
+function defaulte(){
+    
+}
