@@ -256,3 +256,66 @@ EX : Saida : A == 3
  
 
  // Funções anonimas de JS 
+ // AS FUNÇÕES podem ser armazenadas como valor , então podemos salvar dados dentro delas
+ // Exemplo
+
+ function somar(a ,b) {
+    return a + b
+ }
+
+const operacao = somar // com isso digo que operação vira uma função e posso utiliza - lo em qualquer lugar
+ // Exemplo :
+
+ console.log(operacao(3, 5)) // Resultado : 8
+
+ // Funções anonimas não precisam ter nomes e conseguimos utiliza-las igual exemplificado acima atribuindo uma variavel a elas
+ // Exemplo
+
+ const subtrait = function (a ,b) { return a - b}
+
+// Diferença do LET e VAR
+// O let é criado assim que o complilador passa por ele ...VAR
+// ja o VAR é puxado ao topo da execução assim que começa o programa , com isso ele é criado já na inicialização sem necessitar que o Intepretador vá até ele.
+
+
+// High - Order Functions
+// Uma função que recebe outra função como parametro
+// Exemplo
+
+function somar(var_a , var_b , uma_funcao) { // uma funcção quando colocada dentro de um outra função não leva os () ,no conceito de Higth-Order
+    console.log("High-Order")
+    const resultado = uma_funcao(parametros_da_funcao)    
+    return resultado
+}
+
+// Em pratica , podemos utilizar o High-Order para reutilizar gfunções em caracter geral , como..
+// criar uma funcao para receber 2 valores e utilizar essa funcao em outras funcoes sem a necessidade de ter que criar uma estrutura de codigo para receber esses valores para essa açao determinada.
+
+VAR_ARRAY.forEach(Função_a_ser_chamada_para_ver_a_lista)
+
+// Map : Ele mapeia cada um dos elementos antigo para um novo elemento
+const ARRAY_Novo = array_antigo.map(function(array_velho){
+    //return array_velho.item_A_Ser_colocado_no_Array_novo
+    return array_velho.nomes // Nomes é o item do array antigo
+})
+
+//filter : Analisa o Array passado e filtra com o parametro desejado e salva em um novo array 
+
+// Sem usar o Filter
+const array_novo = []
+for (let index = 0; index < array_novo.length; index++) {
+    if (array_novo[i].nome == "Parametro a verificar") {
+    array_novo.push(array_velho[i])
+    }
+}
+
+// Agora utilizando o Filter
+
+const array_novo = array_antigo.filter(function(array_antigo){
+    return array_antigo.O que deseja buscar no array == "Parametro de busca"
+})
+
+
+
+// Rever aula de High-ordem Functions e Funcoes anonimas , Higt-Ordem Functions e Arrays 
+
